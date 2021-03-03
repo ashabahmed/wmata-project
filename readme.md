@@ -7,11 +7,11 @@ This is a simple [Lumen](https://lumen.laravel.com/) PHP backend that has been s
 ---
 
 ### A COVID-19 Interlude:
-Originally, we would have required you to generate API keys from [Metro WMATA API](https://developer.wmata.com/) and use them to get real results. Given the Metro’s limited hours during the COVID-19 crisis, we’ve added a feature so you can work on this project after 9pm!
+Originally, we would have required you to generate API keys from [Metro WMATA API](https://developer.wmata.com/) and use them to get real results. Given the Metro’s limited hours during the COVID-19 crisis, we've added a feature so that this project can still be done if the metro isn't running.
 
 There’s an environmental variable `USE_REAL_API`. This is set to `false` by default, and if you keep it set that way, it will return faked incoming train results.
 
-We still encourage you to get actual api keys, add them to the `.env`, and use them instead when it is available! Looking over the documentation will prepare you for the results that will be returned by the backend whether real or faked.
+We encourage you to get actual api keys, add them to the `.env`, and use them instead when trains are running! Looking over the documentation will prepare you for the results that will be returned by the backend whether real or faked.
 
 ---
 
@@ -25,7 +25,7 @@ This project assumes you have both `php` and `composer` installed on your comput
 
 2. Fork and Clone the Repo: `https://github.com/DSPolitical/wmata-project`
 
-3. Navigate to Directory: `cd wmata-times`
+3. Navigate to Directory: `cd wmata-project`
 
 4. Copy the Example .env: `cp .env.example .env`
 
